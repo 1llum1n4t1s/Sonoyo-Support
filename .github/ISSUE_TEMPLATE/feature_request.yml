@@ -1,0 +1,49 @@
+name: 機能要望
+description: Sonoyo に追加してほしい機能や改善案を提案してください。
+title: "[機能要望] "
+labels:
+  - 機能要望
+  - 要確認
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ご提案ありがとうございます。実現したい操作や、現在困っていることが分かるように記載してください。
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 投稿前の確認
+      options:
+        - label: 既存の Issue に同じ要望がないことを確認しました。
+          required: true
+        - label: 投稿内容に検索語、個人情報、認証情報が含まれていないことを確認しました。
+          required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 解決したいこと
+      description: どのような場面で困っているか、何を簡単にしたいかを記載してください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 希望する機能や動作
+      description: どのような機能や操作方法があるとよいかを記載してください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 現在の代替方法
+      description: 現在行っている回避方法や、参考になる他の拡張機能の動作があれば記載してください。
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: その他の情報
+      description: 画面イメージや補足情報があれば、検索語や機密情報を取り除いて添付してください。

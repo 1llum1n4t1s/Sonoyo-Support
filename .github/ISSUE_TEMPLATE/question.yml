@@ -1,0 +1,55 @@
+name: 使い方についての質問
+description: Sonoyo の設定や操作方法について質問してください。
+title: "[質問] "
+labels:
+  - 質問
+  - 要確認
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ご質問ありがとうございます。Issue は誰でも閲覧できます。検索語、OpenAI API キー、購入時のメールアドレス、6桁の確認コードなどの機密情報は記載しないでください。
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 投稿前の確認
+      options:
+        - label: 既存の Issue に同じ質問がないことを確認しました。
+          required: true
+        - label: 投稿内容に検索語、個人情報、認証情報が含まれていないことを確認しました。
+          required: true
+
+  - type: input
+    id: sonoyo-version
+    attributes:
+      label: Sonoyo のバージョン
+      description: ブラウザの拡張機能管理画面に表示されるバージョンを入力してください。
+      placeholder: 例：1.0.2
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: ブラウザ
+      options:
+        - Google Chrome
+        - Mozilla Firefox
+        - その他の Chromium 系ブラウザ
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: 質問内容
+      description: 実現したいこと、試した操作、分からなかった点を、検索語や認証情報を含めずに記載してください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: その他の情報
+      description: 必要に応じて、検索語、個人情報、認証情報を取り除いた画像や補足情報を添付してください。
