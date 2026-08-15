@@ -6,6 +6,8 @@
 - [機能を提案する](https://github.com/1llum1n4t1s/Sonoyo-Support/issues/new?template=feature_request.yml)
 - [使い方について質問する](https://github.com/1llum1n4t1s/Sonoyo-Support/issues/new?template=question.yml)
 - [既存の Issue を確認する](https://github.com/1llum1n4t1s/Sonoyo-Support/issues)
+- [Chrome ウェブストア](https://chromewebstore.google.com/detail/aalkoohcijjcdhfjpambappbmibmamhj)
+- [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/sonoyo/)
 - [Sonoyo 公式サイト](https://sonoyo.kagayoi.com/)
 
 Sonoyo のソースコードは非公開です。このリポジトリでは、不具合報告、機能要望、使い方に関する質問を受け付けています。コード変更の Pull Request は受け付けていません。
@@ -31,7 +33,7 @@ Issue はインターネット上で誰でも閲覧できます。次の情報�
 
 ## 対応環境
 
-Sonoyo は Chrome 116 以降、Firefox 142 以降に対応しています。最新版とプライバシーポリシーは [Sonoyo 公式サイト](https://sonoyo.kagayoi.com/)から確認できます。
+Sonoyo は Chrome 116 以降、Firefox 142 以降に対応しています。最新版は各ブラウザのストア、プライバシーポリシーは [Sonoyo 公式サイト](https://sonoyo.kagayoi.com/)から確認できます。
 
 ## 返信について
 
